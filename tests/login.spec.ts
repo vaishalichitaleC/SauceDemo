@@ -3,6 +3,7 @@ import { test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { InventoryPage } from '../pages/InventoryPage';
 import { CartPage } from '../pages/CartPage';
+// Test case: Login and add product to cart
 
 test('Login and add product', async ({ page }) => {
 
